@@ -1,5 +1,7 @@
 # IoT Pollution Monitor
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!:
+Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temprature and air quality outside. The data is sent to a adafruit browser where pollution data can be accessed from anywhere in the world! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas.
+
+(Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!)
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
