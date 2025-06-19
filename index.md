@@ -20,7 +20,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 # Modifications 
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+**Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -95,10 +95,14 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Adafruit Feather M4 Express featuring ATSAMD51 | What the item is used for | $22.95 | <a href="https://www.adafruit.com/product/3857"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
+| Adafruit Feather M4 Express featuring ATSAMD51 | Stores code and processing files | $22.95 | <a href="https://www.adafruit.com/product/3857"> Link </a> |
+| Adafruit AirLift FeatherWing | Uses ESP32 to connect to WiFi and transfer data | $12.95 | <a href="https://www.adafruit.com/product/4264"> Link </a> |
+| PM2.5 Air Quality Sensor and breadboard adapter kit | Monitors air quality using lasers and dust concentrations | $39.95 | <a href="https://www.adafruit.com/product/3686"> Link </a> |
+| Adafruit BME280 12C or SPI | Temperature Humidity Pressure Sensor | $14.95 | <a href="https://www.adafruit.com/product/2652"> Link </a> |
+| FeatherWing Doubler | Feather Board prototyping add-on | $7.50 | <a href="https://www.adafruit.com/product/2890"> Link </a> |
+| Flanged Weatherproof Enclosure with PG-7 Cable Glands | An enclosure to protect projects from weather | $9.95 | <a href="https://www.adafruit.com/product/3931"> Link </a> |
+| Silicone Stranded Cable | 4 connected 30 AWG wires | $1.95 | <a href="https://www.adafruit.com/product/3889"> Link </a> |
+| Part | what it is | $price | <a href="https://www.adafruit.com/product/3686"> Link </a> |
 
 # Starter Project
 
