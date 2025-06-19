@@ -17,7 +17,6 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](logo.svg)
 
-
 # Modifications 
 
 **Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -107,6 +106,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9fetkc7HMbk?si=WrSm_SIhvWVOaIxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
 
 Parts: USB socket, 2 dot matrixes, 1 capasitor, 1 buzzer, 6 buttons, 6 key caps, 1 power switch, 1 battery box, 3 AAA batteries, 6 acrylic plates, 2 wires, digital tube. 
 
