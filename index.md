@@ -107,19 +107,40 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9fetkc7HMbk?si=WrSm_SIhvWVOaIxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
-
-Parts: USB socket, 2 dot matrixes, 1 capasitor, 1 buzzer, 6 buttons, 6 key caps, 1 power switch, 1 battery box, 3 AAA batteries, 6 acrylic plates, 2 wires, digital tube. 
-
 My starter project is a retro arcade console. The console has 5 levels of games that can be played. The red button is used to start and switch off the console. The 4 buttons on the bottom left are for movements in every direction. The top yellow button on the right rotates pieces and begins the game. This is a fun portible game.
 
 I chose this as my starter project to enhance my skills in soldering. The project helped me learn how to make proper cone-shaped joints and practice with multiple pieces. Some of the joints were very small and close together, making it challenging to solder it without a short circut, or connecting two close-by pins. This helped me practice soldering with pins and pads of various sizes and enabled me to practice advanced soldering skills.
 
+![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
+
+Parts: USB socket, 2 dot matrixes, 1 capasitor, 1 buzzer, 6 buttons, 6 key caps, 1 power switch, 1 battery box, 3 AAA batteries, 6 acrylic plates, 2 wires, digital tube. 
+
+| **#** | **Part** | **Quantity** |
+|:--:|:--:|:--:|
+| 1 | Buzzer | 1 |
+| 2 | Electric Capacitor | 1 |
+| 3 | Micro USB | 1 |
+| 4 | Power Cable | 1 |
+| 5 | Switch | 1 |
+| 6 | Red Switch Cap | 1 |
+| 7 | Digitron display | 1 |
+| 8 | IC Chip | 1 |
+| 9 | IC Socket | 1 |
+| 10 | LED dot matrix module | 2 |
+| 11 | Button | 6 |
+| 12 | Yellow button cap | 6 |
+| 13 | PCB | 1 |
+| 14 | M3x5mm Screw | 8 |
+| 15 | M3x8mm Screw | 2 |
+| 16 | AAA Battery case | 6 |
+| 17 | Acrylic shell | 1 |
+
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Starter project parts](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
+- [IoT pollution monitor guide](https://learn.adafruit.com/diy-air-quality-monitor/overview)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
