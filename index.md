@@ -1,7 +1,6 @@
 # IoT Pollution Monitor
-Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit browser where pollution data can be accessed from anywhere in the world! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas.
+Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit browser where pollution data can be accessed from anywhere in the world online! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas. This Pollution Monitor can make the environment around where it is placed safer and inform users from potential threats that need to be dealt with.
 
-(Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!)
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -11,7 +10,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman
+| Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman |
 
 ![Headstone Image](Rishaan's-picture.png)
 
@@ -64,7 +63,12 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
+There are 5 parts to the IoT Monitor's assembly. The FeatherWing Doubler makes it possible for Feather boards and sensors to connect into one build. The Feather M4 express is the microcontroller which takes on the coding tasks and performs them physically. The AirLift FeatherWing enables wifi and co-proccessing for the Feather M4 express. This makes it possible for the Feather M4 express to connect to the computer and recieve code as well as send data back to the computer. T
+
+The temperature/humidity sensor and the air quality sensor are wired to the FeatherWing Doubler to connect to the Feather M4 express. This enables the microcontroller to connect and control the sensors. The data collected from these sensors is sent back to the computer to display the data online.
+
+Some challenges I faced were seperating the four connected wires. The wires were hard to pull apart without ripping some of the protective plastic layer. I solved this by using a tweser to pull apart the wires and then cutting portions of the wire that had been ripped. Another challenge was understanding how the seperate modules needed to be soldered before connecting all of the modules together. I solved this by researching the pieces, such as the FeatherWing dobuler and the different pins it uses. 
+
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones: Putting breadboards together with no previous knowledge/instruction. (used research to solve).
 - What your plan is to complete your project
