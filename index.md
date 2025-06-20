@@ -7,7 +7,7 @@ You should comment out all portions of your portfolio that you have not complete
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
-
+```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -15,6 +15,8 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](Rishaan's-picture.png)
 
+
+```HTML
 # Modifications 
 
 **Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -27,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
   
-
+```
 
 # Final Milestone
 
@@ -85,7 +87,6 @@ void loop() {
 
 }
 ```
-```HTML
 
 
 # Bill of Materials
