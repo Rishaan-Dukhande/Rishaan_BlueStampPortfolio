@@ -5,9 +5,9 @@ Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with ardui
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
-<!--- This is an HTML comment in Markdown --
+<!--- This is an HTML comment in Markdown -->
 
-
+<!---
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman
@@ -86,7 +86,7 @@ void loop() {
 
 }
 ```
-
+-->
 !--- Anything between these symbols will not render on the published site -->
 ```
 
