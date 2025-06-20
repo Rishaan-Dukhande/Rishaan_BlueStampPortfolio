@@ -115,25 +115,18 @@ I chose this as my starter project to enhance my skills in soldering. The projec
 
 Parts: USB socket, 2 dot matrixes, 1 capasitor, 1 buzzer, 6 buttons, 6 key caps, 1 power switch, 1 battery box, 3 AAA batteries, 6 acrylic plates, 2 wires, digital tube. 
 
-| **#** | **Part** | **Quantity** |
-|:--:|:--:|:--:|
-| 1 | Buzzer | 1 |Add commentMore actions
-| 2 | Electric Capacitor | 1 |
-| 3 | Micro USB | 1 |
-| 4 | Power Cable | 1 |
-| 5 | Switch | 1 |
-| 6 | Red Switch Cap | 1 |
-| 7 | Digitron display | 1 |
-| 8 | IC Chip | 1 |
-| 9 | IC Socket | 1 |
-| 10 | LED dot matrix module | 2 |
-| 11 | Button | 6 |
-| 12 | Yellow button cap | 6 |
-| 13 | PCB | 1 |
-| 14 | M3x5mm Screw | 8 |
-| 15 | M3x8mm Screw | 2 |
-| 16 | AAA Battery case | 6 |
-| 17 | Acrylic shell | 1 |
+| **#** | **Part** | **#** | **Part**|
+|:--:|:--:|:--:|:--:|
+| 1 | 1 Buzzer | 11 | 6 Buttons |
+| 2 | 1 Electric Capacitor | 12 | 6 yellow button caps |
+| 3 | 1 Micro USB | 13 | 1 PCB |
+| 4 | 1 Power Cable | 14 | 8 M3x5mm Screw |
+| 5 | 1 Switch | 15 | 2 M3x8mm Screw |
+| 6 | 1 Red Switch Cap | 16 | 1 AAA Battery case |
+| 7 | 1 Digitron display | 17 | 1 Acrylic shell |
+| 8 | 1 IC Chip |  |  |
+| 9 | 1 IC Socket |  |  |
+| 10 | 2 LED dot matrix modules |  |  |
 
 
 # Other Resources/Examples
