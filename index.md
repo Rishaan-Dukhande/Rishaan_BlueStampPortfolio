@@ -87,7 +87,7 @@ void loop() {
 }
 ```
 
-!--- Anything between these symbols will not render on the published site -->
+<!--- Anything between these symbols will not render on the published site -->
 ```
 
 
