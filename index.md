@@ -47,12 +47,10 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eaCGoKpHLIo?si=a0U95rOx5LooxEnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I chose this project to learn about IoT, or known as the Internet of Things. I want to learn how to use hardware in a different approach. How to send data back to the computer and view it online. Additonally, this project will be very helpful in keeping the environment inside and outside my house safe from air pollution.
 
@@ -60,12 +58,10 @@ There are 5 parts to the IoT Monitor's assembly. The FeatherWing Doubler makes i
 
 The temperature/humidity sensor and the air quality sensor are wired to the FeatherWing Doubler to connect to the Feather M4 express. This enables the microcontroller to connect and control the sensors. The data collected from these sensors is sent back to the computer to display the data online.
 
-Some challenges I faced were seperating the four connected wires. The wires were hard to pull apart without ripping some of the protective plastic layer. I solved this by using a tweser to pull apart the wires and then cutting portions of the wire that had been ripped. Another challenge was understanding how the seperate modules needed to be soldered before connecting all of the modules together. I solved this by researching the pieces, such as the FeatherWing dobuler and the different pins it uses. 
+Some challenges I faced were seperating the 30AWG 4-wire. The wires were hard to pull apart without ripping some of the protective plastic layer. I solved this by using a tweser to pull apart the wires and then cutting portions of the wire that had been ripped. Another challenge was understanding how the seperate modules needed to be soldered before connecting all of the modules together. I solved this by researching the pieces, such as the FeatherWing dobuler and the different pins it uses. 
 
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones: Putting breadboards together with no previous knowledge/instruction. (used research to solve).
-- What your plan is to complete your project
--->
+Milestone 1 was assembling the hardware for the project. This includes wiring the sensors and making each piece, such as the FeatherWing Doubler and M4 express. Milestone 2 will have code for the modules and send data to an Adafruit IO dashboard. A case for the hardware of the project will also be created.
+
 # Schematics 
 <img src="Schematics.png" width="500" height="300">
 
