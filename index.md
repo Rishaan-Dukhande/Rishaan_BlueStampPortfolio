@@ -67,8 +67,8 @@ Some challenges I faced were seperating the four connected wires. The wires were
 - What your plan is to complete your project
 ```
 # Schematics 
-
-[Source:] (https://learn.adafruit.com/diy-air-quality-monitor/wiring)  
+<img src="Schematics.png" width="300" height="400">
+[Source](https://learn.adafruit.com/diy-air-quality-monitor/wiring)  
 ```HTML
 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
