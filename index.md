@@ -99,7 +99,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 | FeatherWing Doubler | Feather Board prototyping add-on | $7.50 | <a href="https://www.adafruit.com/product/2890"> Link </a> |
 | Flanged Weatherproof Enclosure with PG-7 Cable Glands | An enclosure to protect projects from weather | $9.95 | <a href="https://www.adafruit.com/product/3931"> Link </a> |
 | Silicone Stranded Cable | 4 connected 30 AWG wires | $1.95 | <a href="https://www.adafruit.com/product/3889"> Link </a> |
+
+```HTML
 | Part | what it is | $price | <a href="https://www.adafruit.com/product/3686"> Link </a> |
+```
 
 # Starter Project
 
