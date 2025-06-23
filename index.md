@@ -65,8 +65,11 @@ Some challenges I faced were seperating the four connected wires. The wires were
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones: Putting breadboards together with no previous knowledge/instruction. (used research to solve).
 - What your plan is to complete your project
-
+```
 # Schematics 
+
+[Source:] (https://learn.adafruit.com/diy-air-quality-monitor/wiring)  
+```HTML
 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
