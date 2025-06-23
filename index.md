@@ -68,7 +68,8 @@ Some challenges I faced were seperating the four connected wires. The wires were
 ```
 # Schematics 
 <img src="Schematics.png" width="500" height="300">
-[Source](https://learn.adafruit.com/diy-air-quality-monitor/wiring)  
+
+[Schematics link](https://learn.adafruit.com/diy-air-quality-monitor/wiring)  
 
 ```HTML
 
@@ -120,6 +121,7 @@ I chose this as my starter project to enhance my skills in soldering. The projec
 # Starter Components
 
 ![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
+[Schematics link](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
 
 | **#** | **Part** | **#** | **Part**|
 |:--:|:--:|:--:|:--:|
