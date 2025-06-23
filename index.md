@@ -7,7 +7,7 @@ Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with ardui
 
 <img src="RishaanD.jpg" width="400" height="500">
 
-```
+<!--
 # Modifications 
 
 **Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -65,13 +65,13 @@ Some challenges I faced were seperating the four connected wires. The wires were
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones: Putting breadboards together with no previous knowledge/instruction. (used research to solve).
 - What your plan is to complete your project
-```
+-->
 # Schematics 
 <img src="Schematics.png" width="500" height="300">
 
 [Schematics link](https://learn.adafruit.com/diy-air-quality-monitor/wiring)  
 
-```HTML
+<!--
 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
@@ -90,7 +90,7 @@ void loop() {
 
 }
 ```
-
+-->
 
 # Bill of Materials
 
@@ -104,9 +104,9 @@ void loop() {
 | Flanged Weatherproof Enclosure with PG-7 Cable Glands | An enclosure to protect projects from weather | $9.95 | <a href="https://www.adafruit.com/product/3931"> Link </a> |
 | Silicone Stranded Cable | 4 connected 30 AWG wires | $1.95 | <a href="https://www.adafruit.com/product/3889"> Link </a> |
 
-```HTML
+<!--
 | Part | what it is | $price | <a href="https://www.adafruit.com/product/3686"> Link </a> |
-```
+-->
 
 # Starter Project
 
@@ -141,8 +141,8 @@ I chose this as my starter project to enhance my skills in soldering. The projec
 - [Starter project parts](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
 - [IoT pollution monitor guide](https://learn.adafruit.com/diy-air-quality-monitor/overview)
 
-```HTML
+<!--
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
-```
+-->
