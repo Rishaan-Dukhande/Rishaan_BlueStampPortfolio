@@ -116,7 +116,7 @@ My starter project is a retro arcade console. The console has 5 levels of games 
 
 I chose this as my starter project to enhance my skills in soldering. The project helped me learn how to make proper cone-shaped joints and practice with multiple pieces. Some of the joints were very small and close together, making it challenging to solder it without a short circut, or connecting two close-by pins. This helped me practice soldering with pins and pads of various sizes and enabled me to practice advanced soldering skills.
 
-# Starter Components
+### Starter Components
 
 ![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
 
