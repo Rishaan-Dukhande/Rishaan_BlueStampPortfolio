@@ -114,7 +114,7 @@ I chose this as my starter project to enhance my skills in soldering. The projec
 
 ## Starter Components
 
-![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
+![Headstone Image](StartProject.png)
 
 [Schematics link](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
 
