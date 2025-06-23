@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman |
 
-![Headstone Image](Rishaan's-picture.png)
+![Headstone Image](RishaanD.jpg)
 
 
 ```HTML
