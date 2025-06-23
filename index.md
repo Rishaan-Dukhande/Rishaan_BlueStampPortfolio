@@ -62,8 +62,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-There are 5 parts to the IoT Monitor's assembly. The FeatherWing Doubler makes it possible for Feather boards and sensors to connect into one build. The Feather M4 express is the microcontroller which takes on the coding tasks and performs them physically. The AirLift FeatherWing enables wifi and co-proccessing for the Feather M4 express. This makes it possible for the Feather M4 express to connect to the computer and recieve code as well as send data back to the computer. T
+I chose this project to learn about IoT, or known as the Internet of Things. I want to learn how to use hardware in a different approach. How to send data back to the computer and view it online. Additonally, this project will be very helpful in keeping the environment inside and outside my house safe from air pollution.
+
+There are 5 parts to the IoT Monitor's assembly. The FeatherWing Doubler makes it possible for Feather boards and sensors to connect into one build. The Feather M4 express is the microcontroller which takes on the coding tasks and performs them physically. The AirLift FeatherWing enables wifi and co-proccessing for the Feather M4 express. This makes it possible for the Feather M4 express to connect to the computer and recieve code as well as send data back to the computer. 
 
 The temperature/humidity sensor and the air quality sensor are wired to the FeatherWing Doubler to connect to the Feather M4 express. This enables the microcontroller to connect and control the sensors. The data collected from these sensors is sent back to the computer to display the data online.
 
