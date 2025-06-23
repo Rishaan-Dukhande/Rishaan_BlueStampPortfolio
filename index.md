@@ -7,7 +7,7 @@ Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with ardui
 
 <img src="RishaanD.jpg" width="400" height="500">
 
-```HTML
+```
 # Modifications 
 
 **Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
