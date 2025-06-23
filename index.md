@@ -5,7 +5,7 @@ Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with ardui
 |:--:|:--:|:--:|:--:|
 | Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman |
 
-<img src="RishaanD.jpg" width="300" height="500">
+<img src="RishaanD.jpg" width="400" height="500">
 
 ```HTML
 # Modifications 
