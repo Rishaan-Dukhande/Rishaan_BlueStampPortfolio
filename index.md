@@ -5,7 +5,7 @@ Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with ardui
 |:--:|:--:|:--:|:--:|
 | Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman |
 
-<img src="RishaanD.jpg" width="200" height="100">
+<img src="RishaanD.jpg" width="300" height="500">
 
 ```HTML
 # Modifications 
@@ -109,9 +109,9 @@ My starter project is a retro arcade console. The console has 5 levels of games 
 
 I chose this as my starter project to enhance my skills in soldering. The project helped me learn how to make proper cone-shaped joints and practice with multiple pieces. Some of the joints were very small and close together, making it challenging to solder it without a short circut, or connecting two close-by pins. This helped me practice soldering with pins and pads of various sizes and enabled me to practice advanced soldering skills.
 
-![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
-
 # Starter Components
+
+![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
 
 | **#** | **Part** | **#** | **Part**|
 |:--:|:--:|:--:|:--:|
