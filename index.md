@@ -1,19 +1,11 @@
 # IoT Pollution Monitor
 Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit browser where pollution data can be accessed from anywhere in the world online! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas. This Pollution Monitor can make the environment around where it is placed safer and inform users from potential threats that need to be dealt with.
 
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman |
 
-![Headstone Image](RishaanD.jpg)
-
+<img src="RishaanD.jpg" width="200" height="100">
 
 ```HTML
 # Modifications 
@@ -119,7 +111,7 @@ I chose this as my starter project to enhance my skills in soldering. The projec
 
 ![Headstone Image](364C49C2-2689-4218-B72A-F74B93D8D0AA.png)
 
-Parts: USB socket, 2 dot matrixes, 1 capasitor, 1 buzzer, 6 buttons, 6 key caps, 1 power switch, 1 battery box, 3 AAA batteries, 6 acrylic plates, 2 wires, digital tube. 
+# Starter Components
 
 | **#** | **Part** | **#** | **Part**|
 |:--:|:--:|:--:|:--:|
@@ -136,9 +128,12 @@ Parts: USB socket, 2 dot matrixes, 1 capasitor, 1 buzzer, 6 buttons, 6 key caps,
 
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+
 - [Starter project parts](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
 - [IoT pollution monitor guide](https://learn.adafruit.com/diy-air-quality-monitor/overview)
+
+```HTML
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+```
