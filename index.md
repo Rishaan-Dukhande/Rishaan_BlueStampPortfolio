@@ -1,5 +1,5 @@
 # IoT Pollution Monitor
-Is it safe outside? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit browser where pollution data can be accessed from anywhere in the world online! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas. This Pollution Monitor can make the environment around where it is placed safer and inform users from potential threats that need to be dealt with.
+Is it safe outside? Would you like to know? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit browser where pollution data can be accessed from anywhere in the world online! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas. This Pollution Monitor can make the environment around where it is placed safer and inform users from potential threats that need to be dealt with.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -42,8 +42,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
--The code has been created
--Code to run the sensors and send data to Adafruit IO has been typed.
+
+For Milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. In addition, a case to store all the modules and microchips has been created to prevent damage from external weather. 
+
+Challenges:
+-Code
+-Adafruit IO connection
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
