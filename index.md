@@ -62,6 +62,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <img src="Feather Wing assembly picture.png" width="500" height="350">
 
+[Assembly picture](https://learn.adafruit.com/diy-air-quality-monitor/assembly)
+
 ## Summary
 I chose this project to learn about IoT, or known as the Internet of Things. I want to learn how to use hardware in a different approach. How to send data back to the computer and view it online. Additonally, this project will be very helpful in keeping the environment inside and outside my house safe from air pollution.
 
