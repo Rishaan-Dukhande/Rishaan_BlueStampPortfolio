@@ -46,8 +46,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 For Milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. In addition, a case to store all the modules and microchips has been created to prevent damage from external weather. 
 
 Challenges:
--Code
--Adafruit IO connection
+-Config.h - add directly to code
+-Libraries
+-Connecting to adafriut io wifi - connect.io
+-Using use_airlift to enable communication of sensors
+-BME280 ip adress (0x76) (0x77).
+
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
