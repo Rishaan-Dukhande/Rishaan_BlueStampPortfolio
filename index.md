@@ -42,7 +42,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ### Adafruit IO Dashboard
 
-<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="400" height="400">
+<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="450" height="400">
 
 
 ### Summary
