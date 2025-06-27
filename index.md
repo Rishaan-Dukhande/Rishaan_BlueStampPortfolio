@@ -34,30 +34,24 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
+-->
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xPz4PPeAag?si=z71MvWrZafZhgkiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. Through this project's code, I have learned how to take sensor values and send it to the Internet of Things, in this case using Adafruit io.
 
+The libraries to connect to the individual sensors and Adafruit io were not already installed and in the Adafruit io instruction. Without the libraries, the sensors and the Feather M4 express could not connect to each other or the Adafruit io dashboard. Some libraries also did not function properly, including Config.h and WifiNINA. To solve this problem, I added the code in these files directly into the code by defining each component neccessary, such as the Adafruit io account and wifi. WifiNINA needed an older version in order to connect the project to the wifi. Another challenge was connecting the project to the adafruit io dashboard in the code. The code required specific io.connect and Adafruit io wifi connection for everything to work. It also needed an extra line of code to connect the AirLift FeatherWing to the Feather M4 express. Connecting and initializing the BME280 temperature and humidity sensor was another challenge. There are two addresses depending on the module and how it is used. The two versions are 0x76 and 0x77. To find the correct one, I had to test both in the code in order to properly initialize the sensor.
 
-For Milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. In addition, a case to store all the modules and microchips has been created to prevent damage from external weather. 
-
-Challenges:
-The libraries to connect to the individual sensors and Adafruit io were not already installed and in the Adafruit io instruction. Without the libraries, the sensors and the Feather M4 express could not connect to each other or the Adafruit io dashboard. Some libraries also did not function properly, including Config.h and WifiNINA. To solve this problem, I added the code in these files directly into the code by defining each component neccessary, such as the Adafruit io account and wifi. WifiNINA needed an older version in order to connect the project to the wifi. Another challenge was connecting the project to the adafruit io dashboard in the code. The code required specific io.connect and Adafruit io wifi connection for everything to work. It also needed an extra line of code to connect the AirLift FeatherWing to the Feather M4 express. 
--Libraries
--Connecting to adafriut io wifi - connect.io
--Using use_airlift to enable communication of sensors
--BME280 ip adress (0x76) (0x77).
+For milestone 3, I will add a case to the project to keep the project safe from external damage. In additon, the Adafruit io dashboard will be organized and have more features. The update interval will also be changed to make a stable connection between the IoT pollution monitor and the Adafruit io dashboard.
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
--->
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eaCGoKpHLIo?si=a0U95rOx5LooxEnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
