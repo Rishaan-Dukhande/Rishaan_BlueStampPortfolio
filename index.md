@@ -40,6 +40,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_xPz4PPeAag?si=z71MvWrZafZhgkiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Adafruit IO Dashboard
+
+<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="400" height="400">
+
+
+### Summary
 For milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. This contributes to the final project by making the hardware components work together to perform the task of sending data to a website where it can be viewed around the world. It accurately sends data to Adafruit io every two minutes. Through this project's code, I have learned how to take sensor values and send it to the Internet of Things, in this case using Adafruit io.
 
 The libraries to connect to the individual sensors and Adafruit io were not already installed and in the Adafruit io instruction. Without the libraries, the sensors and the Feather M4 express could not connect to each other or the Adafruit io dashboard. Some libraries also did not function properly, including Config.h and WifiNINA. To solve this problem, I added the code in these files directly into the code by defining each component neccessary, such as the Adafruit io account and wifi. WifiNINA needed an older version in order to connect the project to the wifi. Another challenge was connecting the project to the adafruit io dashboard in the code. The code required specific io.connect and Adafruit io wifi connection for everything to work. It also needed an extra line of code to connect the AirLift FeatherWing to the Feather M4 express. Connecting and initializing the BME280 temperature and humidity sensor was another challenge. There are two addresses depending on the module and how it is used. The two versions are 0x76 and 0x77. To find the correct one, I had to test both in the code in order to properly initialize the sensor.
