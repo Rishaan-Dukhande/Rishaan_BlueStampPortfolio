@@ -126,14 +126,14 @@ My starter project is a retro arcade console. The console has 5 levels of games 
 
 I chose this as my starter project to enhance my skills in soldering. The project helped me learn how to make proper cone-shaped joints and practice with multiple pieces. Some of the joints were very small and close together, making it challenging to solder it without a short circut, or connecting two close-by pins. This helped me practice soldering with pins and pads of various sizes and enabled me to practice advanced soldering skills.
 
-## Starter Schematics
+### Starter Schematics
 
 ![Headstone Image](StartProject.png) <img src="SchematicsStarter.png" width="450" height="400">
 
 
 [Schematics link](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
 
-## Starter Components
+### Starter Components
 
 | **#** | **Part** | **#** | **Part**|
 |:--:|:--:|:--:|:--:|
