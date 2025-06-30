@@ -46,7 +46,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ### Sensor connection + Serial Monitor
 
-<img src="Pm2.5 - assembly2 " width="450" height="400">
+<img src="Pm25assembly2.png" width="450" height="400">
 
 ### Summary
 For milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. This contributes to the final project by making the hardware components work together to perform the task of sending data to a website where it can be viewed around the world. It accurately sends data to Adafruit io every two minutes. Through this project's code, I have learned how to take sensor values and send it to the Internet of Things, in this case using Adafruit io.
