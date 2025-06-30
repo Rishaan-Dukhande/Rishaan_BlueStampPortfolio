@@ -128,7 +128,8 @@ I chose this as my starter project to enhance my skills in soldering. The projec
 
 ## Starter Schematics
 
-![Headstone Image](StartProject.png)
+![Headstone Image](StartProject.png) <img src="SchematicsStarter.png" width="450" height="400">
+
 
 [Schematics link](https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f)
 
