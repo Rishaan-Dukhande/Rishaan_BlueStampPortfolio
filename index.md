@@ -42,7 +42,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ### Adafruit IO Dashboard
 
-<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="450" height="400">
+<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="400" height="450">
+
+
 
 ### Sensor connection + Serial Monitor
 
