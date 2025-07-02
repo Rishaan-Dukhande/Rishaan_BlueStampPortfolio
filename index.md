@@ -53,9 +53,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 ### Summary
 For milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. This contributes to the final project by making the hardware components work together to perform the task of sending data to a website where it can be viewed around the world. It accurately sends data to Adafruit io every two minutes. Through this project's code, I have learned how to take sensor values and send it to the Internet of Things, in this case using Adafruit io.
 
+For the final milestone, I will add a case to the project to keep the project safe from external damage. In additon, the Adafruit io dashboard will be organized and have more features. There is still difficulty with connecting Adafruit io to the hardware of the project. To solve this, I plan to update the publish interval and use debug comments to find the issue, hopefully making a better connection.
+
+### Challenges
+
 The libraries to connect to the individual sensors and Adafruit io were not already installed and in the Adafruit io instruction. Without the libraries, the sensors and the Feather M4 express could not connect to each other or the Adafruit io dashboard. Some libraries also did not function properly, including Config.h and WifiNINA. To solve this problem, I added the code in these files directly into the code by defining each component neccessary, such as the Adafruit io account and wifi. WifiNINA needed an older version in order to connect the project to the wifi. Another challenge was connecting the project to the adafruit io dashboard in the code. The code required specific io.connect and Adafruit io wifi connection for everything to work. It also needed an extra line of code to connect the AirLift FeatherWing to the Feather M4 express. Connecting and initializing the BME280 temperature and humidity sensor was another challenge. There are two addresses depending on the module and how it is used. The two versions are 0x76 and 0x77. To find the correct one, I had to test both in the code in order to properly initialize the sensor.
 
-For the final milestone, I will add a case to the project to keep the project safe from external damage. In additon, the Adafruit io dashboard will be organized and have more features. There is still difficulty with connecting Adafruit io to the hardware of the project. To solve this, I plan to update the publish interval and use debug comments to find the issue, hopefully making a better connection.
+
 
 # First Milestone
 
@@ -74,9 +78,11 @@ There are 5 parts to the IoT Monitor's assembly. The FeatherWing Doubler makes i
 
 The temperature/humidity sensor and the air quality sensor are wired to the FeatherWing Doubler to connect to the Feather M4 express. This enables the microcontroller to connect and control the sensors. The data collected from these sensors is sent back to the computer to display the data online.
 
-Some challenges I faced were seperating the 30AWG 4-wire. The wires were hard to pull apart without ripping some of the protective plastic layer. I solved this by using a tweser to pull apart the wires and then cutting portions of the wire that had been ripped. Another challenge was understanding how the seperate modules needed to be soldered before connecting all of the modules together. I solved this by researching the pieces, such as the FeatherWing dobuler and the different pins it uses. 
-
 Milestone 1 was assembling the hardware for the project. This includes wiring the sensors and making each piece, such as the FeatherWing Doubler and M4 express. Milestone 2 will have code for the modules and send data to an Adafruit IO dashboard. A case for the hardware of the project will also be created.
+
+### Challenges
+
+Some challenges I faced were seperating the 30AWG 4-wire. The wires were hard to pull apart without ripping some of the protective plastic layer. I solved this by using a tweser to pull apart the wires and then cutting portions of the wire that had been ripped. Another challenge was understanding how the seperate modules needed to be soldered before connecting all of the modules together. I solved this by researching the pieces, such as the FeatherWing dobuler and the different pins it uses. 
 
 # Schematics 
 <img src="Schematics.png" width="500" height="300">
