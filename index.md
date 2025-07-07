@@ -14,7 +14,13 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="450" height="400"> 
+### LED modification
+
+<img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> 
+
+### OLED display modification
+
+-----------
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - what are the modifications?
@@ -39,7 +45,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 For the final milestone, the whole IoT Air Quality monitor is complete and functioning. A new 3D printed case has been created to store the project. This case has an acrylic see-through plate on the top so it is possible to see the project from outside. The case has a leaf design for the lid, relating to the projects environmental aspect. The base is a solid white to keep the temperature as acurate as possible. 
 
-The case has two PG-7 cable glands which allow wires to pass through the case to connect to power and a computer. One is used to connect to power for this project. The case also has six 2 millimeter holes on the opposite side of the PG-7 cable glands. This allows air to pass through for accurate AQI, humidity, and temperature sensor readings. 
+The case has two PG-7 cable glands which allow wires to pass through the case to connect to power and a computer. One is used to connect to power for this project. The case also has six 2 millimeter holes on the opposite side of the PG-7 cable glands. This allows air to pass through for accurate AQI, humidity, and temperature sensor readings. A micro USB cable has been spliced and connects to the project inside the case. This cable enables the project to connect to power while still being in the compact case.
+
+### Project Info
+
+Dimensions: 72x100x30 mm^3
 
 ### Challenges
 
