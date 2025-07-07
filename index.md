@@ -14,6 +14,8 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="450" height="400"> 
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - what are the modifications?
 - What your biggest challenges and triumphs were at BSE
@@ -25,6 +27,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
