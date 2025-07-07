@@ -22,13 +22,20 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 -----------
 
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - what are the modifications?
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-  
 
+### What I learned at BlueStamp Engineering
+
+BlueStamp engineering allowed me to explore different types of microchip controllers and wiring, which I never did before. I learned how to wire ESP32's to sensors as well as splicing wires. I learned about the internet of things and how to connect projects to an online browser to get data and information. 
+
+I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts.
+  
+-->
 
 # Final Milestone
 
@@ -47,9 +54,15 @@ For the final milestone, the whole IoT Air Quality monitor is complete and funct
 
 The case has two PG-7 cable glands which allow wires to pass through the case to connect to power and a computer. One is used to connect to power for this project. The case also has six 2 millimeter holes on the opposite side of the PG-7 cable glands. This allows air to pass through for accurate AQI, humidity, and temperature sensor readings. A micro USB cable has been spliced and connects to the project inside the case. This cable enables the project to connect to power while still being in the compact case.
 
-### Project Info
+### 3D case dimensions Info
 
-Dimensions: 72x100x30 mm^3
+Inner case(part project sits in): 100x72x20 mm^3
+Wall mount: 120 x 80 x 6mm^3
+Lid: 100x72x10 mm^3
+Leaf design: 1.5 mm thick, 0.5mm extrude for advanced design border
+Air holes: 2mm diameter
+Wall mount holes: 12mm diameter
+
 
 ### Challenges
 
@@ -57,12 +70,6 @@ The 3D case design was initally developed with dimensions from the Adafruit case
 
 Another challenge I encountered during this portion of the project was splicing the USB cable to be inside the PG-7 cable gland. Splicing the USB cable is more difficult then splicing regular wires because it has a thick tube surrounding four individual wires. These wires are very small compared to wires I have used before. Placing a heat shrink on the wires was difficult, so each of them had to be surronded with electrical tape instead. The wires had to be soldered individually in order to function and prevent a short circut. If this wasn't proper, the Feather M4 express would have heated up and might have been damaged. It took many attempts, soldering and desoldering until the wires were sodered properly.
 
-### What I learned at BlueStamp Engineering
-
-BlueStamp engineering allowed me to explore different types of microchip controllers and wiring, which I never did before. I learned how to wire ESP32's to sensors as well as splicing wires. I learned about the internet of things and how to connect projects to an online browser to get data and information. 
-
-I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts.
--->
 
 # Second Milestone
 
