@@ -41,12 +41,6 @@ I hope to take on projects more on robotics in the future, learning how to do mo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NZA9t-WGzt8?si=M0Dgg7_Mn9eje4yZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
 ### Summary
 
 For the final milestone, the whole IoT Air Quality monitor is complete and functioning. A new 3D printed case has been created to store the project. This case has an acrylic see-through plate on the top so it is possible to see the project from outside. The case has a leaf design for the lid, relating to the projects environmental aspect. The base is a solid white to keep the temperature as acurate as possible. 
