@@ -78,7 +78,7 @@ Another challenge I encountered during this portion of the project was splicing 
 
 ### Sensor connection + Serial Monitor
 
-<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="500" height="400">
+<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="500" height="450">
 
 
 ### Summary
@@ -124,22 +124,214 @@ Some challenges I faced were seperating the 30AWG 4-wire. The wires were hard to
 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
-# Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+-->
+
+# Code
+
+This version of the code is for the basic IoT monitor without any modifications.
 
 ```c++
+#define USE_AIRLIFT
+
+#include <AdafruitIO_WiFi.h>
+#include <Adafruit_BME280.h>
+#include <Adafruit_PM25AQI.h>
+#include <WiFiNINA.h>
+#include <SPI.h>
+#include <Wire.h>
+
+#define IO_USERNAME    "Your username"
+#define IO_KEY         "Your adafruit io key"
+#define WIFI_SSID      "Wifi SSID"
+#define WIFI_PASS      "Wifi password"
+
+const double AIO_LATITUDE  = 37.31421842651806;
+const double AIO_LONGITUDE = -121.96864537385015;
+const double AIO_ELEVATION = 45.0;
+
+#define ESP32_CS_PIN     13
+#define ESP32_RESET_PIN  12
+#define ESP32_READY_PIN  11
+#define SPIWIFI          SPI
+
+AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS,
+                   ESP32_CS_PIN, ESP32_READY_PIN, ESP32_RESET_PIN, -1, &SPIWIFI);
+
+AdafruitIO_Feed *feed_aqi = nullptr;
+AdafruitIO_Feed *feed_aqi_category = nullptr;
+AdafruitIO_Feed *feed_temperature = nullptr;
+AdafruitIO_Feed *feed_humidity = nullptr;
+AdafruitIO_Feed *feed_location = nullptr;
+
+Adafruit_BME280 bme;
+Adafruit_PM25AQI pm25;
+
+int lastAQI = 0;
+unsigned long lastPublish = 0;
+const unsigned long publishInterval = 2 * 60 * 1000;
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  Serial.begin(115200);
+  delay(1000);
+
+  io.connect();
+
+  Serial.print("Connecting to WiFi...");
+  WiFi.begin(WIFI_SSID, WIFI_PASS);
+
+  unsigned long wifiStart = millis();
+  while (WiFi.status() != WL_CONNECTED && millis() - wifiStart < 10000) {
+    Serial.print(".");
+    delay(500);
+  }
+
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.println("\n✅ WiFi connected");
+    Serial.print("IP Address: ");
+    Serial.println(WiFi.localIP());
+  } else {
+    Serial.println("\n❌ Failed to connect to WiFi");
+  }
+
+  unsigned long connectStart = millis();
+  while(io.status() < AIO_CONNECTED) {
+    Serial.print(".");
+    delay(500);
+    if (millis() - connectStart > 15000) {
+      Serial.println("\nFailed to connect to Adafruit IO.");
+      return;
+    }
+  }
+  Serial.println("\nConnected to Adafruit IO");
+
+  feed_aqi = io.feed("air-quality-sensor.aqi");
+  feed_aqi_category = io.feed("air-quality-sensor.category");
+  feed_temperature = io.feed("air-quality-sensor.temperature");
+  feed_humidity = io.feed("air-quality-sensor.humidity");
+  feed_location = io.feed("air-quality-sensor.location");
+
+  if (feed_location) {
+    feed_location->save(1, AIO_LATITUDE, AIO_LONGITUDE, AIO_ELEVATION);
+    Serial.println("📍 Location sent to IO");
+  }
+
+  if (!bme.begin(0x76)) {
+    Serial.println("BME280 not found at 0x76, trying 0x77...");
+    if (!bme.begin(0x77)) {
+      Serial.println("Could not find a valid BME280 sensor at 0x76 or 0x77!");
+      while (1);
+    }
+  }
+  Serial.println("BME280 sensor initialized");
+
+  Serial1.begin(9600);
+  if (!pm25.begin_UART(&Serial1)) {
+    Serial.println("Could not find PM2.5 sensor!");
+    while(1);
+  }
+  Serial.println("PM2.5 sensor initialized");
+
+  if (feed_aqi_category) feed_aqi_category->save("Init");
+  if (feed_temperature) feed_temperature->save(0);
+  if (feed_humidity) feed_humidity->save(0);
+}
+
+int calculate_aqi(float pm25_val, String &category) {
+  int aqi;
+  if (pm25_val <= 12.0) {
+    aqi = map(pm25_val, 0, 12, 0, 50);
+    category = "Good";
+  } else if (pm25_val <= 35.4) {
+    aqi = map(pm25_val, 12, 35, 51, 100);
+    category = "Moderate";
+  } else if (pm25_val <= 55.4) {
+    aqi = map(pm25_val, 36, 55, 101, 150);
+    category = "Unhealthy for Sensitive Groups";
+  } else if (pm25_val <= 150.4) {
+    aqi = map(pm25_val, 56, 150, 151, 200);
+    category = "Unhealthy";
+  } else if (pm25_val <= 250.4) {
+    aqi = map(pm25_val, 151, 250, 201, 300);
+    category = "Very Unhealthy";
+  } else {
+    aqi = map(pm25_val, 251, 500, 301, 500);
+    category = "Hazardous";
+  }
+  return aqi;
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  static bool wasDisconnected = false;
 
+  io.run();
+
+  if (io.status() != AIO_CONNECTED) {
+    if (!wasDisconnected) {
+      Serial.println("⚠️ Disconnected from Adafruit IO. Attempting to reconnect...");
+      wasDisconnected = true;
+    }
+    io.connect();
+    return;
+  }
+
+  if (wasDisconnected) {
+    Serial.println("🔁 Reconnected to Adafruit IO!");
+    wasDisconnected = false;
+  }
+
+  unsigned long now = millis();
+  if (now - lastPublish >= publishInterval) {
+    lastPublish = now;
+    Serial.println("Reading sensors...");
+
+    PM25_AQI_Data data;
+    float pm_avg = 0;
+    int samples = 0;
+
+  for (int i = 0; i < 2; i++) {
+    if (pm25.read(&data)) {
+      pm_avg += data.pm25_env;
+      samples++;
+    } else {
+     Serial.println("PM2.5 read error");
+  }
+
+  io.run();  // ✅ Keeps Adafruit IO connection alive during delays
+  delay(1000);
 }
+
+    if (samples == 0) {
+      Serial.println("No valid PM2.5 samples");
+      return;
+    }
+
+    pm_avg /= samples;
+
+    String aqi_cat;
+    int aqi = calculate_aqi(pm_avg, aqi_cat);
+
+    float temp = bme.readTemperature() * 1.8 + 32;
+    float humid = bme.readHumidity();
+
+    Serial.println("----- Sensor Readings -----");
+    Serial.print("AQI: "); Serial.println(aqi);
+    Serial.print("Category: "); Serial.println(aqi_cat);
+    Serial.print("Temp (F): "); Serial.println(temp);
+    Serial.print("Humidity: "); Serial.println(humid);
+    Serial.println("---------------------------");
+
+    if (feed_location) feed_location->save(1, AIO_LATITUDE, AIO_LONGITUDE, AIO_ELEVATION);
+    if (feed_aqi) feed_aqi->save(aqi);
+    if (feed_aqi_category) feed_aqi_category->save(aqi_cat);
+    if (feed_temperature) feed_temperature->save(temp);
+    if (feed_humidity) feed_humidity->save(humid);
+
+    lastAQI = aqi;
+  }
+}
+
 ```
--->
 
 # Bill of Materials
 
