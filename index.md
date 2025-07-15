@@ -47,14 +47,17 @@ For the final milestone, the whole IoT Air Quality monitor is complete and funct
 
 The case has two PG-7 cable glands which allow wires to pass through the case to connect to power and a computer. One is used to connect to power for this project. The case also has six 2 millimeter holes on the opposite side of the PG-7 cable glands. This allows air to pass through for accurate AQI, humidity, and temperature sensor readings. A micro USB cable has been spliced and connects to the project inside the case. This cable enables the project to connect to power while still being in the compact case.
 
-### 3D case dimensions Info
+### 3D case Info
 
-Inner case(part project sits in): 100x72x20 mm^3
-Wall mount: 120 x 80 x 6mm^3
-Lid: 100x72x10 mm^3
-Leaf design: 1.5 mm thick, 0.5mm extrude for advanced design border
-Air holes: 2mm diameter
-Wall mount holes: 12mm diameter
+| **Part** | **Dimension** |
+|:--:|:--:|
+| Inner case | 100x72x20 mm^3 |
+| Wall mount | 120 x 80 x 6mm^3 |
+| Lid | 100x72x10 mm^3 |
+| Leaf design | 1.5 mm thick, 0.5mm extrude for advanced design border |
+| Air holes | 2mm diameter |
+| PG-7 cable gland holes | 12mm diameter |
+| Wall mount holes | 8mm diameter |
 
 
 ### Challenges
@@ -75,7 +78,7 @@ Another challenge I encountered during this portion of the project was splicing 
 
 ### Sensor connection + Serial Monitor
 
-<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="400" height="300">
+<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="500" height="400">
 
 
 ### Summary
