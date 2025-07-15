@@ -20,6 +20,8 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 ### OLED display modification
 
+The OLED screen used for this modification is the SH1107 OLED FeatherWing. The dimensions are 68x128mm. The OLED screen is used to visually display sensor data from where the IoT pollution monitor is located. This makes it possible to see the information even if the internet is down or if it is not possible to open adafruit io.
+
 -----------
 
 
