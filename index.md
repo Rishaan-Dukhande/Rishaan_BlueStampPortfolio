@@ -71,6 +71,12 @@ Another challenge I encountered during this portion of the project was splicing 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_xPz4PPeAag?si=z71MvWrZafZhgkiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Summary
+For milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. This contributes to the final project by making the hardware components work together to perform the task of sending data to a website where it can be viewed around the world. It accurately sends data to Adafruit io every two minutes. Through this project's code, I have learned how to take sensor values and send it to the Internet of Things, in this case using Adafruit io.
+
+For the final milestone, I will add a case to the project to keep the project safe from external damage. In additon, the Adafruit io dashboard will be organized and have more features. There is still difficulty with connecting Adafruit io to the hardware of the project. To solve this, I plan to update the publish interval and use debug comments to find the issue, hopefully making a better connection.
+
+
 ### Adafruit IO Dashboard
 
 <img src="D4887C8B-C2B8-4DD5-AEE5-E35802057634.jpeg" width="450" height="400"> 
@@ -78,13 +84,8 @@ Another challenge I encountered during this portion of the project was splicing 
 
 ### Sensor connection + Serial Monitor
 
-<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="400" height="300">
+<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="550" height="450">
 
-
-### Summary
-For milestone 2, The code to run the sensors and send data to Adafruit IO has been typed. The Adafruit IO dashboard has been created to display data collected by the IoT pollution monitor. The code allows the hardware portion of the project to connect to Adafruit IO. This contributes to the final project by making the hardware components work together to perform the task of sending data to a website where it can be viewed around the world. It accurately sends data to Adafruit io every two minutes. Through this project's code, I have learned how to take sensor values and send it to the Internet of Things, in this case using Adafruit io.
-
-For the final milestone, I will add a case to the project to keep the project safe from external damage. In additon, the Adafruit io dashboard will be organized and have more features. There is still difficulty with connecting Adafruit io to the hardware of the project. To solve this, I plan to update the publish interval and use debug comments to find the issue, hopefully making a better connection.
 
 ### Challenges
 
