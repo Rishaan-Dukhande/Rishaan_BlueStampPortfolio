@@ -78,7 +78,7 @@ Another challenge I encountered during this portion of the project was splicing 
 
 ### Sensor connection + Serial Monitor
 
-<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="500" height="450">
+<img src="Pm25assembly2.png" width="450" height="400"> <img src="BBECDC52-5456-408B-80E3-91C2E597F8D9_1_105_c.jpeg" width="400" height="300">
 
 
 ### Summary
