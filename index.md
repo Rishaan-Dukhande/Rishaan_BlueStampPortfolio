@@ -1,5 +1,5 @@
 # IoT Pollution Monitor
-Is it safe outside? Would you like to know? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit browser where pollution data can be accessed from anywhere in the world online! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas. This Pollution Monitor can make the environment around where it is placed safer and inform users from potential threats that need to be dealt with.
+Is it safe outside? Would you like to know? The IoT Pollution Monitor uses FeatherWing boards with arduino IDE to keep track of the temperature and air quality outside. The data is sent to an Adafruit IO browser where pollution data can be accessed online from anywhere in the world! This project can track harmful radiation during natural disasters and prevent people from going into dangerous areas. This IoT Pollution Monitor can make the environment around where it is placed safer and inform users from potential threats that need to be dealt with. It also doubles as a weather reporting monitor, giving data for humidity and temperature in the area.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -18,9 +18,11 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 <img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> 
 
+This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the nation wide AQI colors for the seperate categories. 
+
 ### OLED display modification
 
-The OLED screen used for this modification is the SH1107 OLED FeatherWing. The dimensions are 68x128mm. The OLED screen is used to visually display sensor data from where the IoT pollution monitor is located. This makes it possible to see the information even if the internet is down or if it is not possible to open adafruit io.
+The OLED screen used for this modification is the SH1107 OLED FeatherWing. The dimensions are 68x128mm. The OLED screen is used to visually display sensor data from where the IoT pollution monitor is located. This makes it possible to see the information even if the internet is down or if it is not possible to open adafruit io. The OLED screen displays the temperature, humidity, and displays AQI in a larger font.
 
 -----------
 
@@ -36,6 +38,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 BlueStamp engineering allowed me to explore different types of microchip controllers and wiring, which I never did before. I learned how to wire ESP32's to sensors as well as splicing wires. I learned about the internet of things and how to connect projects to an online browser to get data and information. 
 
 I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts.
+
+Notes on what to add on the portfolio:
+
+-picture of 3d case as whole, only lid, and only base
+-picture of each modification (LED and OLED screen)
   
 -->
 
