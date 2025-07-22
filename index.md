@@ -10,7 +10,7 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 <!--
 # Modifications 
 
-(Use:<img src="FullCase.jpg" width="300" height="450">)
+(Use:<img src="OLEDscreen.jpg" width="300" height="450">)
 
 **Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -21,11 +21,16 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 <img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> 
 <img src="LEDModification.jpg" width="450" height="300"> 
 
-This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the nation wide AQI colors for the seperate categories. 
+This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the nation wide AQI colors for the seperate categories. The RGB cathode requires a 2.2V for Red, and a 3.3V for Green and Blue. This makes the red LED circut require it's own seperate voltage divider. This modification gave me the expierence of learning a whole new topic and doing electrical math calculations. 
 
 ### OLED display modification
 
+<img src="OLEDscreen.jpg" width="500" height="300">
+
 The OLED screen used for this modification is the SH1107 OLED FeatherWing. The dimensions are 68x128mm. The OLED screen is used to visually display sensor data from where the IoT pollution monitor is located. This makes it possible to see the information even if the internet is down or if it is not possible to open adafruit io. The OLED screen displays the temperature, humidity, and displays AQI in a larger font.
+
+The OLED sceen brought me to a challenge with its wiring. When the OLED screen was wired to the featherWing Doubler and the corresponding pins on the featherM4 express, the adafruit io connection would drop likely due to power consumption. To approach this problem, I created a seperate 3.3V power circut and connected it to the OLED screen. After the problem kept persisting, I learned about STEMMA QT inputs and decided to use a STEMMA QT wire.
+
 
 -----------
 
@@ -41,6 +46,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 BlueStamp engineering allowed me to explore different types of microchip controllers and wiring, which I never did before. I learned how to wire ESP32's to sensors as well as splicing wires. I learned about the internet of things and how to connect projects to an online browser to get data and information. 
 
 I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts.
+
+My next idea is starting out with a robotic car and adding different wheels and sensors to enhance it. Then I can control it with an online app using my IoT knowledge I gained from this project.
 
 Notes on what to add on the portfolio:
 
