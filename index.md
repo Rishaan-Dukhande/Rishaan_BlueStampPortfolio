@@ -69,6 +69,8 @@ The case has two PG-7 cable glands which allow wires to pass through the case to
 | PG-7 cable gland holes | 12mm diameter |
 | Wall mount holes | 8mm diameter |
 
+<img src="topCase copy.jpg" width="300" height="450">
+
 
 ### Challenges
 
