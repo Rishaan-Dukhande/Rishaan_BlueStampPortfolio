@@ -10,6 +10,8 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 <!--
 # Modifications 
 
+(Use:<img src="FullCase.jpg" width="300" height="450">)
+
 **Don't forget to replace the text below with the embedding for your modifications video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -56,6 +58,9 @@ Notes on what to add on the portfolio:
 For the final milestone, the whole IoT Air Quality monitor is complete and functioning. A new 3D printed case has been created to store the project. This case has an acrylic see-through plate on the top so it is possible to see the project from outside. The case has a leaf design for the lid, relating to the projects environmental aspect. The base is a solid white to keep the temperature as acurate as possible. 
 
 The case has two PG-7 cable glands which allow wires to pass through the case to connect to power and a computer. One is used to connect to power for this project. The case also has six 2 millimeter holes on the opposite side of the PG-7 cable glands. This allows air to pass through for accurate AQI, humidity, and temperature sensor readings. A micro USB cable has been spliced and connects to the project inside the case. This cable enables the project to connect to power while still being in the compact case.
+
+
+<img src="FullCase.jpg" width="450" height="300">
 
 ### 3D case Info
 
