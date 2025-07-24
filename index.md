@@ -151,7 +151,9 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 This version of the code is for the basic IoT monitor without any modifications.
 
+
 ```cpp
+<pre style="background:#fdfdfd; border:none; height:25pc">
 
 #define USE_AIRLIFT
 
@@ -351,6 +353,7 @@ void loop() {
     lastAQI = aqi;
   }
 }
+</pre>
 ```
 
 
