@@ -152,6 +152,8 @@ Here's where you'll put your code. The syntax below places it into a block of co
 This version of the code is for the basic IoT monitor without any modifications.
 
 ```c++
+<div style="overflow: auto; height: 150pt; width: 100%;">
+
 #define USE_AIRLIFT
 
 #include <AdafruitIO_WiFi.h>
@@ -351,6 +353,7 @@ void loop() {
   }
 }
 
+</div>
 ```
 
 # Bill of Materials
