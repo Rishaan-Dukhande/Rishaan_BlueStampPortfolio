@@ -147,14 +147,14 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 -->
 
+<a id="code"></a>
 # Code
-
-This version of the code is for the basic IoT monitor without any modifications.
 
 
 ```cpp
 <pre style="background:#fdfdfd; border:none; height:25pc">
 
+//This version of the code is for the basic IoT monitor without any modifications.
 #define USE_AIRLIFT
 
 #include <AdafruitIO_WiFi.h>
