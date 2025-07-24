@@ -151,7 +151,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 This version of the code is for the basic IoT monitor without any modifications.
 
-```c++
+```HTML
 <div style="overflow: auto; height: 150pt; width: 100%;">
 
 #define USE_AIRLIFT
