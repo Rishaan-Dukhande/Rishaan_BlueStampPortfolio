@@ -8,7 +8,6 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 <img src="RishaanD.jpg" width="400" height="500">
 
 <!--
-# Modifications 
 
 (Use:<img src="OLEDscreen.jpg" width="300" height="450">)
 
@@ -17,11 +16,12 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 -->
+# Modifications
 
 ### LED modification
 
 <img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> 
-<img src="LEDModification.jpg" width="450" height="300"> 
+<img src="LEDModification.jpg" width="400" height="300"> 
 
 This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the national [air quality index colors](https://www.airnow.gov/aqi/aqi-basics/) for the seperate categories. 
 
@@ -38,16 +38,17 @@ The OLED sceen brought me to a challenge with its wiring. When the OLED screen w
 
 ### What I learned at BlueStamp Engineering
 
-BlueStamp engineering allowed me to explore different types of microchip controllers and wiring, which I never did before. I learned how to wire ESP32's to sensors as well as splicing wires. I learned about the internet of things and how to connect projects to an online browser to get data and information. 
+BlueStamp engineering allowed me to explore different types of microchip controllers I had never worked with before. At first I only knew how to use arduinos, but now I know how to use ESP32's and their wifi capabilities. I also learned how to do wiring and splicing at bluestamp. Splicing is spliting a wire and then soldering it back together. I used this to place the USB cable between the wall of the case. 
 
-I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts.
+The most important topic I learned at bluestamp was voltage dividers and ohm's law. I learned this from the LED modification. At first, I would just pick up any resistor and attach it to a wire connected to the LED. I learned that this is a problem because a high voltage could damage components in the project and a low voltage would result in the LED not functioning properly. Through bluestamp, I learned formulas such as V=IR to solve for voltage dividers and make the LED circut. I also became very good at reading the resistors to find their resistance.
 
-My next idea is starting out with a robotic car and adding different wheels and sensors to enhance it. Then I can control it with an online app using my IoT knowledge I gained from this project.
 
-Notes on what to add on the portfolio:
 
--picture of 3d case as whole, only lid, and only base
--picture of each modification (LED and OLED screen)
+### Next steps
+
+For this project, I am going to replace the FeatherM4 express, AirLift FeatherWing, and the FeatherWing Doubler and use a ESP32 instead. This will improve the wifi connection and connection to adafruit io. I might also add a noise pollution sensor or take air pressure data from the BME280 sensor, which is used to collect temperature and humidity data currently.
+
+I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts. My next idea is starting out with a robotic car and robotic arm and adding different wheels and sensors to enhance it. Then I can utilize my IoT knowledge and find a way to control it online.
   
 
 
