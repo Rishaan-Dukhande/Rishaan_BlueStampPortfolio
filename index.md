@@ -20,8 +20,7 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 ### LED modification
 
-<img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> 
-<img src="LEDModification.jpg" width="400" height="300"> 
+<img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> <img src="LEDModification.jpg" width="400" height="300"> 
 
 This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the national [air quality index colors](https://www.airnow.gov/aqi/aqi-basics/) for the seperate categories. 
 
