@@ -151,8 +151,10 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 This version of the code is for the basic IoT monitor without any modifications.
 
-```HTML
-<div style="overflow: auto; height: 150pt; width: 100%;">
+```markdown
+<div style="max-height:400px; overflow:auto; border:1px solid #ccc; padding:10px;">
+
+```cpp
 
 #define USE_AIRLIFT
 
@@ -352,9 +354,8 @@ void loop() {
     lastAQI = aqi;
   }
 }
-
-</div>
 ```
+</div> ```
 
 # Bill of Materials
 
