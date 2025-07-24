@@ -16,12 +16,16 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+-->
+
 ### LED modification
 
 <img src="47D88B9C-6A9A-4B55-9634-191532E5CC8B.jpeg" width="450" height="300"> 
 <img src="LEDModification.jpg" width="450" height="300"> 
 
-This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the nation wide AQI colors for the seperate categories. The RGB cathode requires a 2.2V for Red, and a 3.3V for Green and Blue. This makes the red LED circut require it's own seperate voltage divider. This modification gave me the expierence of learning a whole new topic and doing electrical math calculations. 
+This modification uses a RGB cathode LED. This means this LED connects to the ground (-) and can light up in any color. The colors correspond to the AQI category in the area. The colors are the same as the national [air quality index colors](https://www.airnow.gov/aqi/aqi-basics/) for the seperate categories. 
+
+The RGB cathode requires a 2.2 voltage for red, and a 3.3 voltage for green and blue. This makes the red LED circut require it's own seperate voltage divider. This is different from the green and blue circuts that just need one or two resistors. This modification gave me the expierence of learning a whole new topic and doing electrical math calculations. Knowledge on voltage dividers is helpful for keeping circuts and projects safe to use.
 
 ### OLED display modification
 
@@ -31,15 +35,6 @@ The OLED screen used for this modification is the SH1107 OLED FeatherWing. The d
 
 The OLED sceen brought me to a challenge with its wiring. When the OLED screen was wired to the featherWing Doubler and the corresponding pins on the featherM4 express, the adafruit io connection would drop likely due to power consumption. To approach this problem, I created a seperate 3.3V power circut and connected it to the OLED screen. After the problem kept persisting, I learned about STEMMA QT inputs and decided to use a STEMMA QT wire.
 
-
------------
-
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- what are the modifications?
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
 ### What I learned at BlueStamp Engineering
 
@@ -54,7 +49,7 @@ Notes on what to add on the portfolio:
 -picture of 3d case as whole, only lid, and only base
 -picture of each modification (LED and OLED screen)
   
--->
+
 
 # Final Milestone
 
