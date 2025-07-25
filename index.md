@@ -149,10 +149,9 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 # Code
 
-
-```cpp
 <div class="code-scroll">
 <pre><code>
+```cpp
 
 //This version of the code is for the basic IoT monitor without any modifications.
 #define USE_AIRLIFT
@@ -353,10 +352,10 @@ void loop() {
     lastAQI = aqi;
   }
 }
+
+```
 </code></pre>
 </div>
-```
-
 
 # Bill of Materials
 
