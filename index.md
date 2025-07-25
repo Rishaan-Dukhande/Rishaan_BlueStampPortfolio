@@ -149,8 +149,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 # Code
 
-<div class="code-scroll">
-<pre><code>
+
 ```cpp
 
 //This version of the code is for the basic IoT monitor without any modifications.
@@ -354,8 +353,6 @@ void loop() {
 }
 
 ```
-</code></pre>
-</div>
 
 # Bill of Materials
 
