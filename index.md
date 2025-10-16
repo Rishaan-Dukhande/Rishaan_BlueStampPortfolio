@@ -15,11 +15,25 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+-->
 # Demo Night
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hoeWQsR09Ks?si=egH2zxIaJ6erglNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
--->
+### What I learned at BlueStamp Engineering
+
+BlueStamp engineering allowed me to explore different types of microchip controllers I had never worked with before. At first I only knew how to use arduinos, but now I know how to use ESP32's and their wifi capabilities. I also learned how to do wiring and splicing at bluestamp. Splicing is spliting a wire and then soldering it back together. I used this to place the USB cable between the wall of the case. 
+
+The most important topic I learned at bluestamp was voltage dividers and ohm's law. I learned this from the LED modification. At first, I would just pick up any resistor and attach it to a wire connected to the LED. I learned that this is a problem because a high voltage could damage components in the project and a low voltage would result in the LED not functioning properly. Through bluestamp, I learned formulas such as V=IR to solve for voltage dividers and make the LED circut. I also became very good at reading the resistors to find their resistance.
+
+
+
+### Next steps
+
+For this project, I am going to replace the FeatherM4 express, AirLift FeatherWing, and the FeatherWing Doubler and use a ESP32 instead. This will improve the wifi connection and connection to adafruit io. I might also add a noise pollution sensor or take air pressure data from the BME280 sensor, which is used to collect temperature and humidity data currently.
+
+I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts. My next idea is starting out with a robotic car and robotic arm and adding different wheels and sensors to enhance it. Then I can utilize my IoT knowledge and find a way to control it online.
+  
 # Modifications
 
 ### LED modification
@@ -38,21 +52,6 @@ The OLED screen used for this modification is the SH1107 OLED FeatherWing. The d
 
 The OLED sceen brought me to a challenge with its wiring. When the OLED screen was wired to the featherWing Doubler and the corresponding pins on the featherM4 express, the adafruit io connection would drop likely due to power consumption. To approach this problem, I created a seperate 3.3V power circut and connected it to the OLED screen. After the problem kept persisting, I learned about STEMMA QT inputs and decided to use a STEMMA QT wire.
 
-
-### What I learned at BlueStamp Engineering
-
-BlueStamp engineering allowed me to explore different types of microchip controllers I had never worked with before. At first I only knew how to use arduinos, but now I know how to use ESP32's and their wifi capabilities. I also learned how to do wiring and splicing at bluestamp. Splicing is spliting a wire and then soldering it back together. I used this to place the USB cable between the wall of the case. 
-
-The most important topic I learned at bluestamp was voltage dividers and ohm's law. I learned this from the LED modification. At first, I would just pick up any resistor and attach it to a wire connected to the LED. I learned that this is a problem because a high voltage could damage components in the project and a low voltage would result in the LED not functioning properly. Through bluestamp, I learned formulas such as V=IR to solve for voltage dividers and make the LED circut. I also became very good at reading the resistors to find their resistance.
-
-
-
-### Next steps
-
-For this project, I am going to replace the FeatherM4 express, AirLift FeatherWing, and the FeatherWing Doubler and use a ESP32 instead. This will improve the wifi connection and connection to adafruit io. I might also add a noise pollution sensor or take air pressure data from the BME280 sensor, which is used to collect temperature and humidity data currently.
-
-I hope to take on projects more on robotics in the future, learning how to do more hardware on a project compared to an IoT project mainly on software. It is great knowing about IoT's because they can be applied to hardware builds that can be used in unreachable places. Now that I know a lot about software and sensors, I would like to add modifications to this project displaying data from the monitor itself and growing knowledge on hardware and moving parts. My next idea is starting out with a robotic car and robotic arm and adding different wheels and sensors to enhance it. Then I can utilize my IoT knowledge and find a way to control it online.
-  
 
 
 # Final Milestone
