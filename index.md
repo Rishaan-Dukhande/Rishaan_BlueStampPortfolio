@@ -5,7 +5,7 @@ Is it safe outside? Would you like to know? The IoT Pollution Monitor uses Feath
 |:--:|:--:|:--:|:--:|
 | Rishaan D | Fremont High School | Electrical Engineering | Incoming Freshman |
 
-<img src="IoTPollutionMonitor.jpg" width="400" height="500">
+<img src="IoTPollutionMonitor.jpg" width="450" height="500">
 
 <!--
 
